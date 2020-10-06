@@ -110,7 +110,7 @@ index = 1
 print("Comienza la eliminación de las personas que no me siguen...")
 for following in following_elements:
     user_name   = following.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/ul/div/li['+ str(index) +']/div/div[1]/div[2]/div[1]/span/a').text
-    if user_name in followers:
+    if not user_name in followers:
         # click en siguiendo
         driver.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/ul/div/li['+ str(index)+']/div/div[2]/button').click()
         time.sleep(random.uniform(1.0, 1.5))
