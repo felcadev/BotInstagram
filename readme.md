@@ -15,7 +15,7 @@ _Selenium_
 pip3 install selenium
 ```
 
-_WebDriver: En mi caso ocupo Chrome version 84.0.4... Si no funciona con el que viene descargar el adecuado para tu navegador_
+_WebDriver: En mi caso ocupo Chrome version 84.0.4... Si no funciona con el que viene, descargar el adecuado para tu navegador_
 [ChromeDriver - WebDriver for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads) para descargar el necesario.
 
 ### Ejecución 🔧
