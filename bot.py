@@ -57,7 +57,7 @@ while True:
     driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scr1)
 
     # Wait to load page
-    time.sleep(random.uniform(1.0, 1.5))
+    time.sleep(random.uniform(3.0, 4.0))
 
     # Calculate new scroll height and compare with last scroll height
     new_height = driver.execute_script("return arguments[0].scrollHeight", scr1)
@@ -96,7 +96,7 @@ while True:
     driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scr2)
 
     # Wait to load page
-    time.sleep(random.uniform(1.0, 1.5))
+    time.sleep(random.uniform(3.0, 4.0))
 
     # Calculate new scroll height and compare with last scroll height
     new_height = driver.execute_script("return arguments[0].scrollHeight", scr2)
